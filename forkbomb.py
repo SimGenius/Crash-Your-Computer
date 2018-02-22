@@ -1,3 +1,6 @@
 import os
-while true:
+i = 1
+while (i > 0):
+    i = i + 1
+    print("########################################")
     os.fork()
